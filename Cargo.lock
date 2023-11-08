@@ -1274,6 +1274,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "singularity"
+version = "0.1.0"
+dependencies = [
+ "reqwest",
+ "rocket",
+ "serde",
+]
+
+[[package]]
 name = "slab"
 version = "0.4.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1757,15 +1766,6 @@ name = "wasm-bindgen-shared"
 version = "0.2.88"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0d046c5d029ba91a1ed14da14dca44b68bf2f124cfbaf741c54151fdb3e0750b"
-
-[[package]]
-name = "weather_rust"
-version = "0.1.0"
-dependencies = [
- "reqwest",
- "rocket",
- "serde",
-]
 
 [[package]]
 name = "web-sys"
